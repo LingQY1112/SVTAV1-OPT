@@ -1,0 +1,16 @@
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\aom_subpixel_8t_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\aom_subpixel_8t_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\highbd_intrapred_sse2_.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\highbd_intrapred_sse2_.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\highbd_variance_impl_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\highbd_variance_impl_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\intrapred_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\intrapred_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\picture_operators_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\picture_operators_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\subpel_variance_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\subpel_variance_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\subtract_sse2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\subtract_sse2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2\x64RegisterUtil.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\x64RegisterUtil.obj

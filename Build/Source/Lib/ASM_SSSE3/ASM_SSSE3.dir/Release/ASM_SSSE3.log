@@ -1,0 +1,11 @@
+﻿  aom_subpixel_8t_intrin_ssse3.c
+  av1_inv_txfm_ssse3.c
+  highbd_convolve_2d_ssse3.c
+  highbd_convolve_ssse3.c
+  highbd_intrapred_intrin_ssse3.c
+  highbd_wiener_convolve_ssse3.c
+  intrapred_ssse3.c
+  jnt_convolve_ssse3.c
+  reconinter_ssse3.c
+  variance_impl_ssse3.c
+  ASM_SSSE3.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSSE3\ASM_SSSE3.dir\Release\ASM_SSSE3.lib

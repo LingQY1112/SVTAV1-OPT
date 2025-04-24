@@ -1,0 +1,2469 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/12/1 21:23:06。
+      节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.52
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/12/1 21:23:08。
+      节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.27
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-k9mf9j"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-k9mf9j"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-k9mf9j'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_88597.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:09。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-k9mf9j\\cmTC_88597.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_88597.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-k9mf9j\\Debug\\”。
+          正在创建目录“cmTC_88597.dir\\Debug\\cmTC_88597.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_88597.dir\\Debug\\cmTC_88597.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88597.dir\\Debug\\\\" /Fd"cmTC_88597.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMAKE3.30\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCCompilerABI.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88597.dir\\Debug\\\\" /Fd"cmTC_88597.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\CMAKE3.30\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-k9mf9j\\Debug\\cmTC_88597.exe" /INCREMENTAL /ILK:"cmTC_88597.dir\\Debug\\cmTC_88597.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-k9mf9j/Debug/cmTC_88597.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-k9mf9j/Debug/cmTC_88597.lib" /MACHINE:X64  /machine:x64 cmTC_88597.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_88597.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-k9mf9j\\Debug\\cmTC_88597.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_88597.dir\\Debug\\cmTC_88597.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_88597.dir\\Debug\\cmTC_88597.tlog\\cmTC_88597.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-k9mf9j\\cmTC_88597.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the C compiler's linker: "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ow2hx8"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ow2hx8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ow2hx8'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_8cf49.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:11。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ow2hx8\\cmTC_8cf49.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8cf49.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ow2hx8\\Debug\\”。
+          正在创建目录“cmTC_8cf49.dir\\Debug\\cmTC_8cf49.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8cf49.dir\\Debug\\cmTC_8cf49.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8cf49.dir\\Debug\\\\" /Fd"cmTC_8cf49.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\CMAKE3.30\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8cf49.dir\\Debug\\\\" /Fd"cmTC_8cf49.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue "E:\\CMAKE3.30\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ow2hx8\\Debug\\cmTC_8cf49.exe" /INCREMENTAL /ILK:"cmTC_8cf49.dir\\Debug\\cmTC_8cf49.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ow2hx8/Debug/cmTC_8cf49.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ow2hx8/Debug/cmTC_8cf49.lib" /MACHINE:X64  /machine:x64 cmTC_8cf49.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_8cf49.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ow2hx8\\Debug\\cmTC_8cf49.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8cf49.dir\\Debug\\cmTC_8cf49.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8cf49.dir\\Debug\\cmTC_8cf49.tlog\\cmTC_8cf49.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ow2hx8\\cmTC_8cf49.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:19 (project)"
+    message: |
+      Running the CXX compiler's linker: "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/VC/Tools/MSVC/14.29.30133/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.29.30154.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:54 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_X86_PLATFORM"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-g592zy"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-g592zy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_X86_PLATFORM"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-g592zy'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_99a1d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:13。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\cmTC_99a1d.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_99a1d.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\Debug\\”。
+          正在创建目录“cmTC_99a1d.dir\\Debug\\cmTC_99a1d.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_99a1d.dir\\Debug\\cmTC_99a1d.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_X86_PLATFORM /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99a1d.dir\\Debug\\\\" /Fd"cmTC_99a1d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_X86_PLATFORM /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99a1d.dir\\Debug\\\\" /Fd"cmTC_99a1d.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\src.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\Debug\\cmTC_99a1d.exe" /INCREMENTAL /ILK:"cmTC_99a1d.dir\\Debug\\cmTC_99a1d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-g592zy/Debug/cmTC_99a1d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-g592zy/Debug/cmTC_99a1d.lib" /MACHINE:X64  /machine:x64 cmTC_99a1d.dir\\Debug\\src.obj
+          cmTC_99a1d.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\Debug\\cmTC_99a1d.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_99a1d.dir\\Debug\\cmTC_99a1d.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_99a1d.dir\\Debug\\cmTC_99a1d.tlog\\cmTC_99a1d.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-g592zy\\cmTC_99a1d.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.25
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:62 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_ARM_PLATFORM"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-s6wdqs"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-s6wdqs"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "HAVE_ARM_PLATFORM"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-s6wdqs'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_a49b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:15。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\cmTC_a49b4.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a49b4.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\Debug\\”。
+          正在创建目录“cmTC_a49b4.dir\\Debug\\cmTC_a49b4.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a49b4.dir\\Debug\\cmTC_a49b4.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ARM_PLATFORM /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a49b4.dir\\Debug\\\\" /Fd"cmTC_a49b4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ARM_PLATFORM /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a49b4.dir\\Debug\\\\" /Fd"cmTC_a49b4.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\src.c"
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\src.c(4,1): fatal error C1189: #error:  "Non-arm64" [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\cmTC_a49b4.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\cmTC_a49b4.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\cmTC_a49b4.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\src.c(4,1): fatal error C1189: #error:  "Non-arm64" [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-s6wdqs\\cmTC_a49b4.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.54
+        
+      exitCode: 1
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckLanguage.cmake:133 (message)"
+      - "CMakeLists.txt:77 (check_language)"
+    checks:
+      - "Looking for a ASM_NASM compiler"
+    message: |
+      Looking for a ASM_NASM compiler passed with the following output:
+      -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+      -- The ASM_NASM compiler identification is unknown
+      -- Found assembler: E:/python3.10/python/Scripts/nasm.exe
+      -- Configuring done (3.4s)
+      -- Generating done (0.0s)
+      -- Build files have been written to: E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+      yasm: warning: unrecognized option `-V'
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+      yasm: warning: unrecognized option `-V'
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+      yasm: warning: unrecognized option `-qversion'
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" did not match "Microsoft":
+      yasm: warning: unrecognized option `-?'
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is TI using "-h" did not match "Texas Instruments":
+      usage: yasm [option]* file
+      Options:
+          --version               show version text
+          --license               show license text
+          -h, --help              show help text
+          --arch=<arch>           select architecture (list with -a help)
+           -a <arch>
+          --parser=<parser>       select parser (list with -p help)
+           -p <parser>
+          --preproc=<preproc>     select preprocessor (list with -r help)
+           -r <preproc>
+          --oformat=<format>      select object format (list with -f help)
+           -f <format>
+          --dformat=<debug>       select debugging format (list with -g help)
+           -g <debug>
+          --lformat=<list>        select list format (list with -L help)
+           -L <list>
+          --list=<listfile>       name of list-file output
+           -l <listfile>
+          --objfile=<filename>    name of object-file output
+           -o <filename>
+          --mapfile=<filename>    name of map-file output
+          --machine=<machine>     select machine (list with -m help)
+           -m <machine>
+          --force-strict          treat all sized operands as if `strict' was used
+          -w                      inhibits warning messages
+          -W                      enables/disables warning
+          -M                      generate Makefile dependencies on stdout
+          -E <file>               redirect error messages to file
+          -s                      redirect error messages to stdout
+          -e, --preproc-only      preprocess only (writes output to stdout by default)
+          -i <path>               add include path
+          -I <path>               add include path
+          -P <filename>           pre-include file
+          -d <macro[=value]>      pre-define a macro, optionally to value
+          -D <macro[=value]>      pre-define a macro, optionally to value
+          -u <macro>              undefine a macro
+          -U <macro>              undefine a macro
+          -X <style>              select error/warning message style (`gnu' or `vc')
+          --prefix=<prefix>       prepend argument to name of all external symbols
+          --suffix=<suffix>       append argument to name of all external symbols
+          --postfix=<suffix>      append argument to name of all external symbols
+      
+      Files are asm sources to be assembled.
+      
+      Sample invocation:
+         yasm -f elf -o object.o source.asm
+      
+      Report bugs to bug-yasm@tortall.net
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is TIClang using "--version" did not match "(TI (.*) Clang Compiler)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is IAR using "" did not match "IAR Assembler":
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMCC using "" did not match "(ARM Compiler)|(ARM Assembler)|(Arm Compiler)":
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1205 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is NASM using "-v" did not match "(NASM version)":
+      yasm: warning: unrecognized option `-v'
+      yasm: No input files specified
+  -
+    kind: "message-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1192 (message)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "CMakeLists.txt:97 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is YASM using "--version" matched "(yasm)":
+      yasm 1.3.0
+      Compiled on Aug 17 2014.
+      Copyright (c) 2001-2014 Peter Johnson and other Yasm developers.
+      Run yasm --license for licensing overview and summary.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-if2o25"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-if2o25"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_Wformat_security"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-if2o25'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_2bf48.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:22。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\cmTC_2bf48.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2bf48.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\Debug\\”。
+          正在创建目录“cmTC_2bf48.dir\\Debug\\cmTC_2bf48.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2bf48.dir\\Debug\\cmTC_2bf48.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wformat_security /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bf48.dir\\Debug\\\\" /Fd"cmTC_2bf48.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wformat-security "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wformat_security /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2bf48.dir\\Debug\\\\" /Fd"cmTC_2bf48.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wformat-security "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\src.c"
+        cl : 命令行 error D8021: 无效的数值参数“/Wformat-security” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\cmTC_2bf48.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\cmTC_2bf48.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\cmTC_2bf48.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wformat-security” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-if2o25\\cmTC_2bf48.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8oypm6"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8oypm6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_Wformat"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8oypm6'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_721b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:23。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\cmTC_721b3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_721b3.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\Debug\\”。
+          正在创建目录“cmTC_721b3.dir\\Debug\\cmTC_721b3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_721b3.dir\\Debug\\cmTC_721b3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wformat /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_721b3.dir\\Debug\\\\" /Fd"cmTC_721b3.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wformat "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wformat /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_721b3.dir\\Debug\\\\" /Fd"cmTC_721b3.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wformat "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\src.c"
+        cl : 命令行 error D8021: 无效的数值参数“/Wformat” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\cmTC_721b3.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\cmTC_721b3.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\cmTC_721b3.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wformat” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8oypm6\\cmTC_721b3.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gbxadu"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gbxadu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gbxadu'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_1c82b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:24。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\cmTC_1c82b.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1c82b.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\Debug\\”。
+          正在创建目录“cmTC_1c82b.dir\\Debug\\cmTC_1c82b.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1c82b.dir\\Debug\\cmTC_1c82b.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wextra /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c82b.dir\\Debug\\\\" /Fd"cmTC_1c82b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wextra "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Wextra /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1c82b.dir\\Debug\\\\" /Fd"cmTC_1c82b.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TC /errorReport:queue  -Wextra "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\src.c"
+        cl : 命令行 error D8021: 无效的数值参数“/Wextra” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\cmTC_1c82b.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\cmTC_1c82b.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\cmTC_1c82b.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wextra” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gbxadu\\cmTC_1c82b.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-fxf9zv"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-fxf9zv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_Wformat_security"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-fxf9zv'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_b46ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:26。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\cmTC_b46ce.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b46ce.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\Debug\\”。
+          正在创建目录“cmTC_b46ce.dir\\Debug\\cmTC_b46ce.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b46ce.dir\\Debug\\cmTC_b46ce.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wformat_security /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b46ce.dir\\Debug\\\\" /Fd"cmTC_b46ce.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wformat-security "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wformat_security /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b46ce.dir\\Debug\\\\" /Fd"cmTC_b46ce.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wformat-security "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\src.cxx"
+        cl : 命令行 error D8021: 无效的数值参数“/Wformat-security” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\cmTC_b46ce.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\cmTC_b46ce.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\cmTC_b46ce.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wformat-security” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-fxf9zv\\cmTC_b46ce.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.53
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jkjl3t"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jkjl3t"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_Wformat"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jkjl3t'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_ff35e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:27。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\cmTC_ff35e.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ff35e.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\Debug\\”。
+          正在创建目录“cmTC_ff35e.dir\\Debug\\cmTC_ff35e.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ff35e.dir\\Debug\\cmTC_ff35e.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wformat /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff35e.dir\\Debug\\\\" /Fd"cmTC_ff35e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wformat "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wformat /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ff35e.dir\\Debug\\\\" /Fd"cmTC_ff35e.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wformat "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\src.cxx"
+        cl : 命令行 error D8021: 无效的数值参数“/Wformat” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\cmTC_ff35e.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\cmTC_ff35e.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\cmTC_ff35e.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wformat” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jkjl3t\\cmTC_ff35e.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:416 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-4rwon4"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-4rwon4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_Wextra"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-4rwon4'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_40b4c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:28。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\cmTC_40b4c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_40b4c.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\Debug\\”。
+          正在创建目录“cmTC_40b4c.dir\\Debug\\cmTC_40b4c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_40b4c.dir\\Debug\\cmTC_40b4c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wextra /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_40b4c.dir\\Debug\\\\" /Fd"cmTC_40b4c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wextra "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Wextra /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_40b4c.dir\\Debug\\\\" /Fd"cmTC_40b4c.dir\\Debug\\vc142.pdb" /external:W1 /Gd /TP /errorReport:queue  -Wextra "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\src.cxx"
+        cl : 命令行 error D8021: 无效的数值参数“/Wextra” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\cmTC_40b4c.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\cmTC_40b4c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\cmTC_40b4c.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 error D8021: 无效的数值参数“/Wextra” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-4rwon4\\cmTC_40b4c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.52
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:419 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-q5tgqt"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-q5tgqt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_W3"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-q5tgqt'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_467ed.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:29。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\cmTC_467ed.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_467ed.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\Debug\\”。
+          正在创建目录“cmTC_467ed.dir\\Debug\\cmTC_467ed.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_467ed.dir\\Debug\\cmTC_467ed.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_W3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_467ed.dir\\Debug\\\\" /Fd"cmTC_467ed.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_W3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_467ed.dir\\Debug\\\\" /Fd"cmTC_467ed.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\src.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\Debug\\cmTC_467ed.exe" /INCREMENTAL /ILK:"cmTC_467ed.dir\\Debug\\cmTC_467ed.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-q5tgqt/Debug/cmTC_467ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-q5tgqt/Debug/cmTC_467ed.lib" /MACHINE:X64  /machine:x64 cmTC_467ed.dir\\Debug\\src.obj
+          cmTC_467ed.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\Debug\\cmTC_467ed.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_467ed.dir\\Debug\\cmTC_467ed.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_467ed.dir\\Debug\\cmTC_467ed.tlog\\cmTC_467ed.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-q5tgqt\\cmTC_467ed.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:419 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8c76g6"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8c76g6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_W3"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8c76g6'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_7dc12.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:31。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\cmTC_7dc12.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7dc12.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\Debug\\”。
+          正在创建目录“cmTC_7dc12.dir\\Debug\\cmTC_7dc12.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7dc12.dir\\Debug\\cmTC_7dc12.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_W3 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dc12.dir\\Debug\\\\" /Fd"cmTC_7dc12.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_W3 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_7dc12.dir\\Debug\\\\" /Fd"cmTC_7dc12.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\src.cxx"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\Debug\\cmTC_7dc12.exe" /INCREMENTAL /ILK:"cmTC_7dc12.dir\\Debug\\cmTC_7dc12.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8c76g6/Debug/cmTC_7dc12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-8c76g6/Debug/cmTC_7dc12.lib" /MACHINE:X64  /machine:x64 cmTC_7dc12.dir\\Debug\\src.obj
+          cmTC_7dc12.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\Debug\\cmTC_7dc12.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_7dc12.dir\\Debug\\cmTC_7dc12.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_7dc12.dir\\Debug\\cmTC_7dc12.tlog\\cmTC_7dc12.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-8c76g6\\cmTC_7dc12.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:420 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-1du7ph"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-1du7ph"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_MP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-1du7ph'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_0108f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:33。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\cmTC_0108f.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_0108f.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\Debug\\”。
+          正在创建目录“cmTC_0108f.dir\\Debug\\cmTC_0108f.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_0108f.dir\\Debug\\cmTC_0108f.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0108f.dir\\Debug\\\\" /Fd"cmTC_0108f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0108f.dir\\Debug\\\\" /Fd"cmTC_0108f.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\src.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\Debug\\cmTC_0108f.exe" /INCREMENTAL /ILK:"cmTC_0108f.dir\\Debug\\cmTC_0108f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-1du7ph/Debug/cmTC_0108f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-1du7ph/Debug/cmTC_0108f.lib" /MACHINE:X64  /machine:x64 cmTC_0108f.dir\\Debug\\src.obj
+          cmTC_0108f.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\Debug\\cmTC_0108f.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_0108f.dir\\Debug\\cmTC_0108f.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_0108f.dir\\Debug\\cmTC_0108f.tlog\\cmTC_0108f.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-1du7ph\\cmTC_0108f.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:420 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gp2941"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gp2941"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_MP"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gp2941'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_71572.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:35。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\cmTC_71572.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_71572.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\Debug\\”。
+          正在创建目录“cmTC_71572.dir\\Debug\\cmTC_71572.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_71572.dir\\Debug\\cmTC_71572.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71572.dir\\Debug\\\\" /Fd"cmTC_71572.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_MP /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_71572.dir\\Debug\\\\" /Fd"cmTC_71572.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\src.cxx"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\Debug\\cmTC_71572.exe" /INCREMENTAL /ILK:"cmTC_71572.dir\\Debug\\cmTC_71572.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gp2941/Debug/cmTC_71572.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-gp2941/Debug/cmTC_71572.lib" /MACHINE:X64  /machine:x64 cmTC_71572.dir\\Debug\\src.obj
+          cmTC_71572.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\Debug\\cmTC_71572.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_71572.dir\\Debug\\cmTC_71572.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_71572.dir\\Debug\\cmTC_71572.tlog\\cmTC_71572.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-gp2941\\cmTC_71572.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "CMakeLists.txt:421 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jbxnsu"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jbxnsu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_Od"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jbxnsu'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_41114.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:37。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\cmTC_41114.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_41114.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\Debug\\”。
+          正在创建目录“cmTC_41114.dir\\Debug\\cmTC_41114.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_41114.dir\\Debug\\cmTC_41114.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Od /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41114.dir\\Debug\\\\" /Fd"cmTC_41114.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_Od /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41114.dir\\Debug\\\\" /Fd"cmTC_41114.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\src.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\Debug\\cmTC_41114.exe" /INCREMENTAL /ILK:"cmTC_41114.dir\\Debug\\cmTC_41114.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jbxnsu/Debug/cmTC_41114.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-jbxnsu/Debug/cmTC_41114.lib" /MACHINE:X64  /machine:x64 cmTC_41114.dir\\Debug\\src.obj
+          cmTC_41114.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\Debug\\cmTC_41114.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_41114.dir\\Debug\\cmTC_41114.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_41114.dir\\Debug\\cmTC_41114.tlog\\cmTC_41114.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-jbxnsu\\cmTC_41114.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "CMakeLists.txt:421 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x5uy4s"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x5uy4s"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_Od"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x5uy4s'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_bf065.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:39。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\cmTC_bf065.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_bf065.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\Debug\\”。
+          正在创建目录“cmTC_bf065.dir\\Debug\\cmTC_bf065.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_bf065.dir\\Debug\\cmTC_bf065.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Od /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf065.dir\\Debug\\\\" /Fd"cmTC_bf065.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_Od /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_bf065.dir\\Debug\\\\" /Fd"cmTC_bf065.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\src.cxx"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\Debug\\cmTC_bf065.exe" /INCREMENTAL /ILK:"cmTC_bf065.dir\\Debug\\cmTC_bf065.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x5uy4s/Debug/cmTC_bf065.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x5uy4s/Debug/cmTC_bf065.lib" /MACHINE:X64  /machine:x64 cmTC_bf065.dir\\Debug\\src.obj
+          cmTC_bf065.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\Debug\\cmTC_bf065.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_bf065.dir\\Debug\\cmTC_bf065.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_bf065.dir\\Debug\\cmTC_bf065.tlog\\cmTC_bf065.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x5uy4s\\cmTC_bf065.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.23
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:455 (check_symbol_exists)"
+    checks:
+      - "Looking for _mm512_extracti64x4_epi64"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x3a005"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x3a005"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAS_AVX512"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-x3a005'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_da716.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:41。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_da716.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\Debug\\”。
+          正在创建目录“cmTC_da716.dir\\Debug\\cmTC_da716.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_da716.dir\\Debug\\cmTC_da716.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da716.dir\\Debug\\\\" /Fd"cmTC_da716.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_da716.dir\\Debug\\\\" /Fd"cmTC_da716.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c"
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c(8): error C7552: “_mm512_extracti64x4_epi64”: 纯内在函数不包含地址 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj]
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c(8,19): error C7552: “_mm512_extracti64x4_epi64”: 纯内在函数不包含地址 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c(8): error C7552: “_mm512_extracti64x4_epi64”: 纯内在函数不包含地址 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj]
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\CheckSymbolExists.c(8,19): error C7552: “_mm512_extracti64x4_epi64”: 纯内在函数不包含地址 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-x3a005\\cmTC_da716.vcxproj]
+        
+            0 个警告
+            2 个错误
+        
+        已用时间 00:00:00.60
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:510 (check_symbol_exists)"
+    checks:
+      - "Looking for strnlen_s"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-mp5qvk"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-mp5qvk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRNLEN_S"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-mp5qvk'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_a309a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:42。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\cmTC_a309a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a309a.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\Debug\\”。
+          正在创建目录“cmTC_a309a.dir\\Debug\\cmTC_a309a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a309a.dir\\Debug\\cmTC_a309a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a309a.dir\\Debug\\\\" /Fd"cmTC_a309a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a309a.dir\\Debug\\\\" /Fd"cmTC_a309a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\CheckSymbolExists.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\Debug\\cmTC_a309a.exe" /INCREMENTAL /ILK:"cmTC_a309a.dir\\Debug\\cmTC_a309a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-mp5qvk/Debug/cmTC_a309a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-mp5qvk/Debug/cmTC_a309a.lib" /MACHINE:X64  /machine:x64 cmTC_a309a.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_a309a.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\Debug\\cmTC_a309a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a309a.dir\\Debug\\cmTC_a309a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a309a.dir\\Debug\\cmTC_a309a.tlog\\cmTC_a309a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-mp5qvk\\cmTC_a309a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.26
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:511 (check_symbol_exists)"
+    checks:
+      - "Looking for strncpy_s"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ul6m19"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ul6m19"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRNCPY_S"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ul6m19'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f111a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:43。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\cmTC_f111a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f111a.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\Debug\\”。
+          正在创建目录“cmTC_f111a.dir\\Debug\\cmTC_f111a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f111a.dir\\Debug\\cmTC_f111a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f111a.dir\\Debug\\\\" /Fd"cmTC_f111a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f111a.dir\\Debug\\\\" /Fd"cmTC_f111a.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\CheckSymbolExists.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\Debug\\cmTC_f111a.exe" /INCREMENTAL /ILK:"cmTC_f111a.dir\\Debug\\cmTC_f111a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ul6m19/Debug/cmTC_f111a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ul6m19/Debug/cmTC_f111a.lib" /MACHINE:X64  /machine:x64 cmTC_f111a.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_f111a.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\Debug\\cmTC_f111a.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f111a.dir\\Debug\\cmTC_f111a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f111a.dir\\Debug\\cmTC_f111a.tlog\\cmTC_f111a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ul6m19\\cmTC_f111a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:512 (check_symbol_exists)"
+    checks:
+      - "Looking for strcpy_s"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-vb9azc"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-vb9azc"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_STRCPY_S"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-vb9azc'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_aedc6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:45。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\cmTC_aedc6.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_aedc6.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\Debug\\”。
+          正在创建目录“cmTC_aedc6.dir\\Debug\\cmTC_aedc6.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_aedc6.dir\\Debug\\cmTC_aedc6.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aedc6.dir\\Debug\\\\" /Fd"cmTC_aedc6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\CheckSymbolExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckSymbolExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aedc6.dir\\Debug\\\\" /Fd"cmTC_aedc6.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\CheckSymbolExists.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\Debug\\cmTC_aedc6.exe" /INCREMENTAL /ILK:"cmTC_aedc6.dir\\Debug\\cmTC_aedc6.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-vb9azc/Debug/cmTC_aedc6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-vb9azc/Debug/cmTC_aedc6.lib" /MACHINE:X64  /machine:x64 cmTC_aedc6.dir\\Debug\\CheckSymbolExists.obj
+          cmTC_aedc6.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\Debug\\cmTC_aedc6.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_aedc6.dir\\Debug\\cmTC_aedc6.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_aedc6.dir\\Debug\\cmTC_aedc6.tlog\\cmTC_aedc6.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-vb9azc\\cmTC_aedc6.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "CMakeLists.txt:541 (check_include_file)"
+    checks:
+      - "Looking for valgrind/valgrind.h"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-nze9t3"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-nze9t3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_VALGRIND_H"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-nze9t3'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_bbd22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:47。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\cmTC_bbd22.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_bbd22.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\Debug\\”。
+          正在创建目录“cmTC_bbd22.dir\\Debug\\cmTC_bbd22.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_bbd22.dir\\Debug\\cmTC_bbd22.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbd22.dir\\Debug\\\\" /Fd"cmTC_bbd22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\CheckIncludeFile.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckIncludeFile.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbd22.dir\\Debug\\\\" /Fd"cmTC_bbd22.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\CheckIncludeFile.c"
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “valgrind/valgrind.h”: No such file or directory [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\cmTC_bbd22.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\cmTC_bbd22.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\cmTC_bbd22.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\CheckIncludeFile.c(1,10): fatal error C1083: 无法打开包括文件: “valgrind/valgrind.h”: No such file or directory [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nze9t3\\cmTC_bbd22.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.55
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:555 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_EXPECT"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-2w68d0"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-2w68d0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BUILTIN_EXPECT"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-2w68d0'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_09d72.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:48。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_09d72.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\Debug\\”。
+          正在创建目录“cmTC_09d72.dir\\Debug\\cmTC_09d72.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_09d72.dir\\Debug\\cmTC_09d72.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_EXPECT /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d72.dir\\Debug\\\\" /Fd"cmTC_09d72.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_EXPECT /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09d72.dir\\Debug\\\\" /Fd"cmTC_09d72.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\src.c"
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\src.c(3,29): warning C4013: “__builtin_expect”未定义；假设外部返回 int [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\Debug\\cmTC_09d72.exe" /INCREMENTAL /ILK:"cmTC_09d72.dir\\Debug\\cmTC_09d72.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-2w68d0/Debug/cmTC_09d72.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-2w68d0/Debug/cmTC_09d72.lib" /MACHINE:X64  /machine:x64 cmTC_09d72.dir\\Debug\\src.obj
+        src.obj : error LNK2019: 无法解析的外部符号 __builtin_expect，函数 main 中引用了该符号 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\Debug\\cmTC_09d72.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\src.c(3,29): warning C4013: “__builtin_expect”未定义；假设外部返回 int [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+        
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          src.obj : error LNK2019: 无法解析的外部符号 __builtin_expect，函数 main 中引用了该符号 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\Debug\\cmTC_09d72.exe : fatal error LNK1120: 1 个无法解析的外部命令 [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-2w68d0\\cmTC_09d72.vcxproj]
+        
+            1 个警告
+            2 个错误
+        
+        已用时间 00:00:01.16
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "CMakeLists.txt:578 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rpjean"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rpjean"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rpjean'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_53e05.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:49。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\cmTC_53e05.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_53e05.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\Debug\\”。
+          正在创建目录“cmTC_53e05.dir\\Debug\\cmTC_53e05.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_53e05.dir\\Debug\\cmTC_53e05.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53e05.dir\\Debug\\\\" /Fd"cmTC_53e05.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_53e05.dir\\Debug\\\\" /Fd"cmTC_53e05.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\src.c"
+        E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\cmTC_53e05.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\cmTC_53e05.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\cmTC_53e05.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\src.c(1,10): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rpjean\\cmTC_53e05.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "CMakeLists.txt:578 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ccky4p"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ccky4p"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ccky4p'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_a9f3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:50。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\cmTC_a9f3c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a9f3c.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\Debug\\”。
+          正在创建目录“cmTC_a9f3c.dir\\Debug\\cmTC_a9f3c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a9f3c.dir\\Debug\\cmTC_a9f3c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9f3c.dir\\Debug\\\\" /Fd"cmTC_a9f3c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a9f3c.dir\\Debug\\\\" /Fd"cmTC_a9f3c.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\CheckFunctionExists.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\Debug\\cmTC_a9f3c.exe" /INCREMENTAL /ILK:"cmTC_a9f3c.dir\\Debug\\cmTC_a9f3c.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ccky4p/Debug/cmTC_a9f3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ccky4p/Debug/cmTC_a9f3c.lib" /MACHINE:X64  /machine:x64 cmTC_a9f3c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\cmTC_a9f3c.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\cmTC_a9f3c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\cmTC_a9f3c.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ccky4p\\cmTC_a9f3c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.92
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "CMakeLists.txt:578 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-bkvo1k"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-bkvo1k"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-bkvo1k'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_1cb18.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:51。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\cmTC_1cb18.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_1cb18.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\Debug\\”。
+          正在创建目录“cmTC_1cb18.dir\\Debug\\cmTC_1cb18.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_1cb18.dir\\Debug\\cmTC_1cb18.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1cb18.dir\\Debug\\\\" /Fd"cmTC_1cb18.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1cb18.dir\\Debug\\\\" /Fd"cmTC_1cb18.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\CheckFunctionExists.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\Debug\\cmTC_1cb18.exe" /INCREMENTAL /ILK:"cmTC_1cb18.dir\\Debug\\cmTC_1cb18.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-bkvo1k/Debug/cmTC_1cb18.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-bkvo1k/Debug/cmTC_1cb18.lib" /MACHINE:X64  /machine:x64 cmTC_1cb18.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\cmTC_1cb18.vcxproj]
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\cmTC_1cb18.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\cmTC_1cb18.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-bkvo1k\\cmTC_1cb18.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.90
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "Source/Lib/ASM_SSE2/CMakeLists.txt:21 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-zttpsk"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-zttpsk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_msse2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-zttpsk'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_b0fb7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:53。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\cmTC_b0fb7.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b0fb7.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\Debug\\”。
+          正在创建目录“cmTC_b0fb7.dir\\Debug\\cmTC_b0fb7.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b0fb7.dir\\Debug\\cmTC_b0fb7.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_msse2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0fb7.dir\\Debug\\\\" /Fd"cmTC_b0fb7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -msse2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_msse2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b0fb7.dir\\Debug\\\\" /Fd"cmTC_b0fb7.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -msse2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\src.c"
+        cl : 命令行 warning D9002: 忽略未知选项“-msse2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\cmTC_b0fb7.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\Debug\\cmTC_b0fb7.exe" /INCREMENTAL /ILK:"cmTC_b0fb7.dir\\Debug\\cmTC_b0fb7.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-zttpsk/Debug/cmTC_b0fb7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-zttpsk/Debug/cmTC_b0fb7.lib" /MACHINE:X64  /machine:x64 cmTC_b0fb7.dir\\Debug\\src.obj
+          cmTC_b0fb7.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\Debug\\cmTC_b0fb7.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_b0fb7.dir\\Debug\\cmTC_b0fb7.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_b0fb7.dir\\Debug\\cmTC_b0fb7.tlog\\cmTC_b0fb7.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\cmTC_b0fb7.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\cmTC_b0fb7.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-msse2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-zttpsk\\cmTC_b0fb7.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "Source/Lib/ASM_SSE2/CMakeLists.txt:21 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-61ce6a"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-61ce6a"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_msse2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-61ce6a'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_2aa62.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:55。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\cmTC_2aa62.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_2aa62.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\Debug\\”。
+          正在创建目录“cmTC_2aa62.dir\\Debug\\cmTC_2aa62.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_2aa62.dir\\Debug\\cmTC_2aa62.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_msse2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2aa62.dir\\Debug\\\\" /Fd"cmTC_2aa62.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -msse2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_msse2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2aa62.dir\\Debug\\\\" /Fd"cmTC_2aa62.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -msse2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\src.cxx"
+        cl : 命令行 warning D9002: 忽略未知选项“-msse2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\cmTC_2aa62.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\Debug\\cmTC_2aa62.exe" /INCREMENTAL /ILK:"cmTC_2aa62.dir\\Debug\\cmTC_2aa62.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-61ce6a/Debug/cmTC_2aa62.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-61ce6a/Debug/cmTC_2aa62.lib" /MACHINE:X64  /machine:x64 cmTC_2aa62.dir\\Debug\\src.obj
+          cmTC_2aa62.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\Debug\\cmTC_2aa62.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_2aa62.dir\\Debug\\cmTC_2aa62.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_2aa62.dir\\Debug\\cmTC_2aa62.tlog\\cmTC_2aa62.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\cmTC_2aa62.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\cmTC_2aa62.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-msse2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-61ce6a\\cmTC_2aa62.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "Source/Lib/ASM_SSSE3/CMakeLists.txt:24 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-uy6yf4"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-uy6yf4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_mssse3"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-uy6yf4'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_f0f48.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:57。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\cmTC_f0f48.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_f0f48.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\Debug\\”。
+          正在创建目录“cmTC_f0f48.dir\\Debug\\cmTC_f0f48.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_f0f48.dir\\Debug\\cmTC_f0f48.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_mssse3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0f48.dir\\Debug\\\\" /Fd"cmTC_f0f48.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -mssse3 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_mssse3 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0f48.dir\\Debug\\\\" /Fd"cmTC_f0f48.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -mssse3 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\src.c"
+        cl : 命令行 warning D9002: 忽略未知选项“-mssse3” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\cmTC_f0f48.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\Debug\\cmTC_f0f48.exe" /INCREMENTAL /ILK:"cmTC_f0f48.dir\\Debug\\cmTC_f0f48.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-uy6yf4/Debug/cmTC_f0f48.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-uy6yf4/Debug/cmTC_f0f48.lib" /MACHINE:X64  /machine:x64 cmTC_f0f48.dir\\Debug\\src.obj
+          cmTC_f0f48.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\Debug\\cmTC_f0f48.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_f0f48.dir\\Debug\\cmTC_f0f48.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_f0f48.dir\\Debug\\cmTC_f0f48.tlog\\cmTC_f0f48.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\cmTC_f0f48.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\cmTC_f0f48.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-mssse3” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-uy6yf4\\cmTC_f0f48.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.23
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "Source/Lib/ASM_SSSE3/CMakeLists.txt:24 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rsm5sa"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rsm5sa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_mssse3"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rsm5sa'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_8b8b3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:23:58。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\cmTC_8b8b3.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_8b8b3.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\Debug\\”。
+          正在创建目录“cmTC_8b8b3.dir\\Debug\\cmTC_8b8b3.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_8b8b3.dir\\Debug\\cmTC_8b8b3.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_mssse3 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b8b3.dir\\Debug\\\\" /Fd"cmTC_8b8b3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -mssse3 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_mssse3 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_8b8b3.dir\\Debug\\\\" /Fd"cmTC_8b8b3.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -mssse3 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\src.cxx"
+        cl : 命令行 warning D9002: 忽略未知选项“-mssse3” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\cmTC_8b8b3.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\Debug\\cmTC_8b8b3.exe" /INCREMENTAL /ILK:"cmTC_8b8b3.dir\\Debug\\cmTC_8b8b3.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rsm5sa/Debug/cmTC_8b8b3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-rsm5sa/Debug/cmTC_8b8b3.lib" /MACHINE:X64  /machine:x64 cmTC_8b8b3.dir\\Debug\\src.obj
+          cmTC_8b8b3.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\Debug\\cmTC_8b8b3.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_8b8b3.dir\\Debug\\cmTC_8b8b3.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_8b8b3.dir\\Debug\\cmTC_8b8b3.tlog\\cmTC_8b8b3.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\cmTC_8b8b3.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\cmTC_8b8b3.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-mssse3” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-rsm5sa\\cmTC_8b8b3.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "Source/Lib/ASM_SSE4_1/CMakeLists.txt:24 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ekqeuj"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ekqeuj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_msse4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ekqeuj'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_58aca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:00。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\cmTC_58aca.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_58aca.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\Debug\\”。
+          正在创建目录“cmTC_58aca.dir\\Debug\\cmTC_58aca.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_58aca.dir\\Debug\\cmTC_58aca.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_msse4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58aca.dir\\Debug\\\\" /Fd"cmTC_58aca.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -msse4.1 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_msse4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_58aca.dir\\Debug\\\\" /Fd"cmTC_58aca.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -msse4.1 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\src.c"
+        cl : 命令行 warning D9002: 忽略未知选项“-msse4.1” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\cmTC_58aca.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\Debug\\cmTC_58aca.exe" /INCREMENTAL /ILK:"cmTC_58aca.dir\\Debug\\cmTC_58aca.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ekqeuj/Debug/cmTC_58aca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ekqeuj/Debug/cmTC_58aca.lib" /MACHINE:X64  /machine:x64 cmTC_58aca.dir\\Debug\\src.obj
+          cmTC_58aca.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\Debug\\cmTC_58aca.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_58aca.dir\\Debug\\cmTC_58aca.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_58aca.dir\\Debug\\cmTC_58aca.tlog\\cmTC_58aca.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\cmTC_58aca.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\cmTC_58aca.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-msse4.1” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ekqeuj\\cmTC_58aca.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.21
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "Source/Lib/ASM_SSE4_1/CMakeLists.txt:24 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-95nwy3"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-95nwy3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_msse4_1"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-95nwy3'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_47865.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:02。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\cmTC_47865.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_47865.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\Debug\\”。
+          正在创建目录“cmTC_47865.dir\\Debug\\cmTC_47865.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_47865.dir\\Debug\\cmTC_47865.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_msse4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_47865.dir\\Debug\\\\" /Fd"cmTC_47865.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -msse4.1 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_msse4_1 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_47865.dir\\Debug\\\\" /Fd"cmTC_47865.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -msse4.1 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\src.cxx"
+        cl : 命令行 warning D9002: 忽略未知选项“-msse4.1” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\cmTC_47865.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\Debug\\cmTC_47865.exe" /INCREMENTAL /ILK:"cmTC_47865.dir\\Debug\\cmTC_47865.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-95nwy3/Debug/cmTC_47865.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-95nwy3/Debug/cmTC_47865.lib" /MACHINE:X64  /machine:x64 cmTC_47865.dir\\Debug\\src.obj
+          cmTC_47865.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\Debug\\cmTC_47865.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_47865.dir\\Debug\\cmTC_47865.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_47865.dir\\Debug\\cmTC_47865.tlog\\cmTC_47865.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\cmTC_47865.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\cmTC_47865.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-msse4.1” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-95nwy3\\cmTC_47865.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.23
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "Source/Lib/ASM_AVX2/CMakeLists.txt:25 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ze5qnt"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ze5qnt"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_mavx2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ze5qnt'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_97663.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:04。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\cmTC_97663.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_97663.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\Debug\\”。
+          正在创建目录“cmTC_97663.dir\\Debug\\cmTC_97663.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_97663.dir\\Debug\\cmTC_97663.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_mavx2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97663.dir\\Debug\\\\" /Fd"cmTC_97663.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -mavx2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_mavx2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_97663.dir\\Debug\\\\" /Fd"cmTC_97663.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue  -mavx2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\src.c"
+        cl : 命令行 warning D9002: 忽略未知选项“-mavx2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\cmTC_97663.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\Debug\\cmTC_97663.exe" /INCREMENTAL /ILK:"cmTC_97663.dir\\Debug\\cmTC_97663.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ze5qnt/Debug/cmTC_97663.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-ze5qnt/Debug/cmTC_97663.lib" /MACHINE:X64  /machine:x64 cmTC_97663.dir\\Debug\\src.obj
+          cmTC_97663.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\Debug\\cmTC_97663.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_97663.dir\\Debug\\cmTC_97663.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_97663.dir\\Debug\\cmTC_97663.tlog\\cmTC_97663.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\cmTC_97663.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\cmTC_97663.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-mavx2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-ze5qnt\\cmTC_97663.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.22
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "Source/Lib/ASM_AVX2/CMakeLists.txt:25 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-0zx6p8"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-0zx6p8"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_mavx2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-0zx6p8'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_63129.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:06。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\cmTC_63129.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_63129.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\Debug\\”。
+          正在创建目录“cmTC_63129.dir\\Debug\\cmTC_63129.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_63129.dir\\Debug\\cmTC_63129.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_mavx2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_63129.dir\\Debug\\\\" /Fd"cmTC_63129.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -mavx2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_mavx2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_63129.dir\\Debug\\\\" /Fd"cmTC_63129.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue  -mavx2 "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\src.cxx"
+        cl : 命令行 warning D9002: 忽略未知选项“-mavx2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\cmTC_63129.vcxproj]
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\Debug\\cmTC_63129.exe" /INCREMENTAL /ILK:"cmTC_63129.dir\\Debug\\cmTC_63129.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-0zx6p8/Debug/cmTC_63129.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-0zx6p8/Debug/cmTC_63129.lib" /MACHINE:X64  /machine:x64 cmTC_63129.dir\\Debug\\src.obj
+          cmTC_63129.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\Debug\\cmTC_63129.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_63129.dir\\Debug\\cmTC_63129.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_63129.dir\\Debug\\cmTC_63129.tlog\\cmTC_63129.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\cmTC_63129.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\cmTC_63129.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-mavx2” [E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-0zx6p8\\cmTC_63129.vcxproj]
+        
+            1 个警告
+            0 个错误
+        
+        已用时间 00:00:01.20
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:340 (check_c_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:386 (check_flags_add)"
+      - "Source/Lib/ASM_AVX2/CMakeLists.txt:37 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-85i6ww"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-85i6ww"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/W3 /DWIN32 /D_WINDOWS /MP"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "C_FLAG_arch_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-85i6ww'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_37382.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:08。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\cmTC_37382.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_37382.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\Debug\\”。
+          正在创建目录“cmTC_37382.dir\\Debug\\cmTC_37382.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_37382.dir\\Debug\\cmTC_37382.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_arch_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37382.dir\\Debug\\\\" /Fd"cmTC_37382.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D C_FLAG_arch_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37382.dir\\Debug\\\\" /Fd"cmTC_37382.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\src.c"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\Debug\\cmTC_37382.exe" /INCREMENTAL /ILK:"cmTC_37382.dir\\Debug\\cmTC_37382.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-85i6ww/Debug/cmTC_37382.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-85i6ww/Debug/cmTC_37382.lib" /MACHINE:X64  /machine:x64 cmTC_37382.dir\\Debug\\src.obj
+          cmTC_37382.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\Debug\\cmTC_37382.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_37382.dir\\Debug\\cmTC_37382.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_37382.dir\\Debug\\cmTC_37382.tlog\\cmTC_37382.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-85i6ww\\cmTC_37382.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.24
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "E:/CMAKE3.30/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "CMakeLists.txt:338 (check_cxx_compiler_flag)"
+      - "CMakeLists.txt:368 (check_flag)"
+      - "CMakeLists.txt:387 (check_flags_add)"
+      - "Source/Lib/ASM_AVX2/CMakeLists.txt:37 (check_both_flags_add)"
+    directories:
+      source: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-iezgsx"
+      binary: "E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-iezgsx"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/W3 /DWIN32 /D_WINDOWS /GR /EHsc /MP"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1 /Od"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CXX_FLAG_arch_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-iezgsx'
+        
+        Run Build Command(s): "E:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe" cmTC_d0594.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.11.2+f32259642
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/12/1 21:24:10。
+        节点 1 上的项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\cmTC_d0594.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d0594.dir\\Debug\\”。
+          正在创建目录“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\Debug\\”。
+          正在创建目录“cmTC_d0594.dir\\Debug\\cmTC_d0594.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d0594.dir\\Debug\\cmTC_d0594.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_arch_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0594.dir\\Debug\\\\" /Fd"cmTC_d0594.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\src.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.29.30154 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          src.cxx
+          cl /c /Zi /W3 /WX- /diagnostics:column /MP /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CXX_FLAG_arch_AVX2 /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /arch:AVX2 /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_d0594.dir\\Debug\\\\" /Fd"cmTC_d0594.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\src.cxx"
+        Link:
+          E:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\Debug\\cmTC_d0594.exe" /INCREMENTAL /ILK:"cmTC_d0594.dir\\Debug\\cmTC_d0594.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-iezgsx/Debug/cmTC_d0594.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CMakeScratch/TryCompile-iezgsx/Debug/cmTC_d0594.lib" /MACHINE:X64  /machine:x64 cmTC_d0594.dir\\Debug\\src.obj
+          cmTC_d0594.vcxproj -> E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\Debug\\cmTC_d0594.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_d0594.dir\\Debug\\cmTC_d0594.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_d0594.dir\\Debug\\cmTC_d0594.tlog\\cmTC_d0594.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“E:\\SVT-AV1\\AV1-Optimization-2.2.1-vmaf\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iezgsx\\cmTC_d0594.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.24
+        
+      exitCode: 0
+...

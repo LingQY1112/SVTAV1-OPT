@@ -1,0 +1,10 @@
+^E:\SVT-AV1\AV1-OPTIMIZATION-2.2.1-VMAF\SOURCE\LIB\CODEC\CMAKELISTS.TXT
+setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/Source/Lib/Codec/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

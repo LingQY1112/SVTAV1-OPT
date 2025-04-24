@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\x64\Release\EbVersionHeaderGen</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Bin\Release\SvtAv1Enc.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Bin\Release\SvtAv1EncApp.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

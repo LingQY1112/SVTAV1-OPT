@@ -1,0 +1,5 @@
+﻿  Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/third_party/fastfeat/CMakeLists.txt
+  fast.c
+  fast_9.c
+  nonmax.c
+  FASTFEAT.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\third_party\fastfeat\FASTFEAT.dir\Release\FASTFEAT.lib

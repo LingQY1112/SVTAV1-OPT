@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{88C12265-54F2-3B62-98D8-7F76086C9C67}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>EbVersionHeaderGen</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\EbVersionHeaderGen.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Codec;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\C_DEFAULT;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\fastfeat;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE4_1;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX512;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\cpuinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Codec;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\C_DEFAULT;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\fastfeat;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE4_1;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX512;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\cpuinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Codec;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\C_DEFAULT;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\fastfeat;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE4_1;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX512;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\cpuinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Codec;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\C_DEFAULT;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\fastfeat;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSE4_1;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX512;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\third_party\cpuinfo\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\92e1eb576ea02c6b342cacbd1e8dacb6\EbVersionHeaderGen.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating version header</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -D INPUT_FILE=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/EbVersion.h.in -D OUTPUT_FILE=EbVersion.h -D GIT_ROOT_DIR=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -D PACKAGE_VERSION_STRING=2.2.0 -P E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/ConfigureGitVersion.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\EbVersionHeaderGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating version header</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -D INPUT_FILE=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/EbVersion.h.in -D OUTPUT_FILE=EbVersion.h -D GIT_ROOT_DIR=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -D PACKAGE_VERSION_STRING=2.2.0 -P E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/ConfigureGitVersion.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\EbVersionHeaderGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating version header</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -D INPUT_FILE=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/EbVersion.h.in -D OUTPUT_FILE=EbVersion.h -D GIT_ROOT_DIR=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -D PACKAGE_VERSION_STRING=2.2.0 -P E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/ConfigureGitVersion.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\EbVersionHeaderGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating version header</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -D INPUT_FILE=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/EbVersion.h.in -D OUTPUT_FILE=EbVersion.h -D GIT_ROOT_DIR=E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -D PACKAGE_VERSION_STRING=2.2.0 -P E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/ConfigureGitVersion.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\EbVersionHeaderGen</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+      <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Codec\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/Source/Lib/Codec/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/Source/Lib/Codec/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/Source/Lib/Codec/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Source/Lib/Codec/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/Source/Lib/Codec/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CMakeFiles\EbVersionHeaderGen">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\ZERO_CHECK.vcxproj">
+      <Project>{FB7EC174-B730-3799-87CD-8F39044C22FE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

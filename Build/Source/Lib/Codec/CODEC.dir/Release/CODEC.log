@@ -1,0 +1,4 @@
+﻿  pic_analysis_process.c
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.\Source/Lib/Codec/tune_vmaf.c(367,40): warning C4133: “函数”: 从“EbPictureBufferDesc *”到“Yv12BufferConfig *”的类型不兼容
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.\Source/Lib/Codec/tune_vmaf.c(368,40): warning C4133: “函数”: 从“EbPictureBufferDesc *”到“Yv12BufferConfig *”的类型不兼容
+  CODEC.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CODEC.dir\Release\CODEC.lib

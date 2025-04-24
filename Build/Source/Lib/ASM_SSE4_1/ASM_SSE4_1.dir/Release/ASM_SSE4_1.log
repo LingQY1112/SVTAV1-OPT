@@ -1,0 +1,22 @@
+﻿  av1_convolve_scale_sse4.c
+  av1_quantize_sse4_1.c
+  blend_a64_mask_sse4.c
+  cdef_block_sse4_1.c
+  cdef_sse4.c
+  compute_sad_intrin_sse4_1.c
+  corner_match_sse4.c
+  encodetxb_sse4.c
+  filterintra_sse4.c
+  highbd_convolve_2d_sse4.c
+  highbd_fwd_txfm_sse4.c
+  highbd_inv_txfm_sse4.c
+  highbd_jnt_convolve_sse4.c
+  intrapred_16bit_intrin_sse4_1.c
+  obmc_variance_sse4.c
+  pic_operators_intrin_sse4_1.c
+  pickrst_sse4.c
+  reconinter_sse4.c
+  selfguided_sse4.c
+  temporal_filtering_sse4_1.c
+  warp_plane_sse4.c
+  ASM_SSE4_1.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE4_1\ASM_SSE4_1.dir\Release\ASM_SSE4_1.lib

@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "definitions.h": "c",
+        "pic_manager_process.h": "c",
+        "sequence_control_set.h": "c",
+        "utility.h": "c"
+    }
+}

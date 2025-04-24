@@ -1,0 +1,2 @@
+E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM/CMakeFiles/ALL_BUILD.dir
+E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM/CMakeFiles/ZERO_CHECK.dir

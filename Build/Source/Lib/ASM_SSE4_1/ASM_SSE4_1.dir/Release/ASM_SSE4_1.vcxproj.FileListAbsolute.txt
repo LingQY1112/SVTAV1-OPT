@@ -1,0 +1,1 @@
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE4_1\ASM_SSE4_1.dir\Release\ASM_SSE4_1.lib

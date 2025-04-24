@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u/svt-av1-vmaf/third_party/fastfeat/fast.c
+stdlib.h
+-
+fast.h
+/home/u/svt-av1-vmaf/third_party/fastfeat/fast.h
+
+/home/u/svt-av1-vmaf/third_party/fastfeat/fast.h
+
+/home/u/svt-av1-vmaf/third_party/fastfeat/fast_9.c
+stdlib.h
+-
+
+/home/u/svt-av1-vmaf/third_party/fastfeat/nonmax.c
+stdlib.h
+-
+fast.h
+/home/u/svt-av1-vmaf/third_party/fastfeat/fast.h
+

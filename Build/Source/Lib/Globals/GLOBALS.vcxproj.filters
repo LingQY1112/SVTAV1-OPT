@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\enc_handle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\enc_settings.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\metadata_handle.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\enc_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\enc_settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\metadata_handle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B21813F8-CEC0-3922-8C7A-A2AC676C623B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CACB15C0-6E2C-3013-BCA2-DD1ED724E04D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

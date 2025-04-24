@@ -1,0 +1,6 @@
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\aom_subpixel_bilinear_ssse3.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSSE3\ASM_SSSE3.dir\Release\aom_subpixel_bilinear_ssse3.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\aom_subpixel_8t_ssse3.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSSE3\ASM_SSSE3.dir\Release\aom_subpixel_8t_ssse3.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\subpel_variance_ssse3.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSSE3\ASM_SSSE3.dir\Release\subpel_variance_ssse3.obj

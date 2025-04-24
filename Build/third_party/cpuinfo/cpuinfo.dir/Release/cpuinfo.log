@@ -1,0 +1,8 @@
+﻿  Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/third_party/cpuinfo/CMakeLists.txt
+  init.c
+  api.c
+  x86_init.c
+  vendor.c
+  isa.c
+  init.c
+  cpuinfo.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\third_party\cpuinfo\cpuinfo.dir\Release\cpuinfo.lib

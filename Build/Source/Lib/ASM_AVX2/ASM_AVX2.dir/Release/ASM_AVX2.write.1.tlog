@@ -1,0 +1,8 @@
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2\itx_avx2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_AVX2\ASM_AVX2.dir\Release\itx_avx2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2\itx16_avx2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_AVX2\ASM_AVX2.dir\Release\itx16_avx2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2\mc_avx2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_AVX2\ASM_AVX2.dir\Release\mc_avx2.obj
+^E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_AVX2\mc16_avx2.asm
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_AVX2\ASM_AVX2.dir\Release\mc16_avx2.obj

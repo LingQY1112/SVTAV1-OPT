@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\aom_subpixel_8t_intrin_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\av1_inv_txfm_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\highbd_convolve_2d_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\highbd_convolve_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\highbd_intrapred_intrin_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\highbd_wiener_convolve_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\intrapred_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\jnt_convolve_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\reconinter_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\variance_impl_ssse3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\av1_inv_txfm_ssse3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <NASM Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\aom_subpixel_bilinear_ssse3.asm" />
+    <NASM Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\aom_subpixel_8t_ssse3.asm" />
+    <NASM Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\ASM_SSSE3\subpel_variance_ssse3.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B21813F8-CEC0-3922-8C7A-A2AC676C623B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CACB15C0-6E2C-3013-BCA2-DD1ED724E04D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,25 @@
+# CMake generation dependency list for this directory.
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeASMCompiler.cmake.in
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeASMInformation.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeASM_NASMInformation.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASMCompiler.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineASM_NASMCompiler.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeGenericSystem.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeSystem.cmake.in
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestASMCompiler.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/CMakeTestASM_NASMCompiler.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/Platform/Windows-Initialize.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/Platform/Windows.cmake
+E:/CMAKE3.30/share/cmake-3.30/Modules/Platform/WindowsPaths.cmake
+E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM/CMakeFiles/3.30.3/CMakeASM_NASMCompiler.cmake
+E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM/CMakeFiles/3.30.3/CMakeSystem.cmake
+E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/CheckASM_NASM/CMakeLists.txt
+E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in

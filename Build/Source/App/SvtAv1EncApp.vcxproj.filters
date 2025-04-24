@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_input_y4m.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_output_ivf.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_process_cmd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\svt_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbDebugMacros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1Enc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1ErrorCodes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1ExtFrameBuf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1Formats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\API\EbSvtAv1Metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_input_y4m.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\app_output_ivf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\svt_time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\App\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B21813F8-CEC0-3922-8C7A-A2AC676C623B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{CACB15C0-6E2C-3013-BCA2-DD1ED724E04D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\92e1eb576ea02c6b342cacbd1e8dacb6\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{20F07BB3-A102-37B8-B96F-DD133E1098DE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

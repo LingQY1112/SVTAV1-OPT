@@ -1,0 +1,19 @@
+﻿  avc_style_mcp_intrin_sse.c
+  compute_mean_intrin_sse2.c
+  convolve_2d_sse2.c
+  convolve_sse2.c
+  dlf_intrin_sse2.c
+  encodetxb_sse2.c
+  fft_sse2.c
+  highbd_intrapred_sse2.c
+  highbd_subtract_sse2.c
+  highbd_variance_sse2.c
+  intra_pred_av1_intrin_sse2.c
+  jnt_convolve_2d_sse2.c
+  jnt_convolve_sse2.c
+  me_sad_calc_intrin_sse2.c
+  pack_unpack_intrin_sse2.c
+  pic_operators_intrin_sse2.c
+  variance_sse2.c
+  wiener_convolve_sse2.c
+  ASM_SSE2.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.dir\Release\ASM_SSE2.lib

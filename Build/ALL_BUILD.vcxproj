@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F3F5E80-9095-390C-BAFE-EC5035E6A7C4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\ALL_BUILD.dir\nasm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASM_NASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeRCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckIncludeFile.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLanguage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLibraryExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckSymbolExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageMessage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindThreads.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\GNUInstallDirs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeASM_NASMCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASM_NASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeRCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckIncludeFile.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLanguage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLibraryExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckSymbolExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageMessage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindThreads.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\GNUInstallDirs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeASM_NASMCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASM_NASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeRCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckIncludeFile.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLanguage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLibraryExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckSymbolExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageMessage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindThreads.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\GNUInstallDirs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeASM_NASMCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeASM_NASMInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCXXInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeCommonLanguageInclude.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeGenericSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeInitializeConfigs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeLanguageInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeRCInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInformation.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckCXXSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckIncludeFile.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLanguage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckLibraryExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\CheckSymbolExists.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Compiler\MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindPackageMessage.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\FindThreads.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\GNUInstallDirs.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckCompilerFlag.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckFlagCommonConfig.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-Initialize.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-C.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows-MSVC.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\Windows.cmake;E:\CMAKE3.30\share\cmake-3.30\Modules\Platform\WindowsPaths.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeASM_NASMCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeCXXCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeRCCompiler.cmake;E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\3.30.3\CMakeSystem.cmake;E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.props.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\ZERO_CHECK.vcxproj">
+      <Project>{FB7EC174-B730-3799-87CD-8F39044C22FE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_AVX2\ASM_AVX2.vcxproj">
+      <Project>{9E6C8C8B-D186-35E5-9EEE-42D72E93B66B}</Project>
+      <Name>ASM_AVX2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE2\ASM_SSE2.vcxproj">
+      <Project>{3408BCC4-F14F-3CCA-B335-2DFCA921458B}</Project>
+      <Name>ASM_SSE2</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSE4_1\ASM_SSE4_1.vcxproj">
+      <Project>{15B1F461-2766-3CE4-B77D-B5BB9FD7F640}</Project>
+      <Name>ASM_SSE4_1</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\ASM_SSSE3\ASM_SSSE3.vcxproj">
+      <Project>{6008399D-06CA-36B9-9752-4568BCA6A17F}</Project>
+      <Name>ASM_SSSE3</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Codec\CODEC.vcxproj">
+      <Project>{F114945C-9B9A-31C6-B389-B373D71F4F92}</Project>
+      <Name>CODEC</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\C_DEFAULT\C_DEFAULT.vcxproj">
+      <Project>{ACE1422D-9A75-353F-AE4C-1B27B0B94C78}</Project>
+      <Name>C_DEFAULT</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\third_party\fastfeat\FASTFEAT.vcxproj">
+      <Project>{7D6560E9-ABB8-3AB0-B3C5-5D561581BE01}</Project>
+      <Name>FASTFEAT</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Globals\GLOBALS.vcxproj">
+      <Project>{1CE5006F-D375-3A2C-9751-5DB8BF429EF9}</Project>
+      <Name>GLOBALS</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\SvtAv1Enc.vcxproj">
+      <Project>{221517C3-AA6E-3002-8E61-DA6DCCAABCD7}</Project>
+      <Name>SvtAv1Enc</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\App\SvtAv1EncApp.vcxproj">
+      <Project>{1ED00FD4-AE52-33B6-B15F-5EE203B37DB8}</Project>
+      <Name>SvtAv1EncApp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\third_party\cpuinfo\deps\clog\clog.vcxproj">
+      <Project>{DC435AFA-44AC-3397-A2C7-883CC566CD9C}</Project>
+      <Name>clog</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\third_party\cpuinfo\cpuinfo.vcxproj">
+      <Project>{5F04B6DD-428D-3855-9F7A-713C8DDAD67F}</Project>
+      <Name>cpuinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="E:\CMAKE3.30\share\cmake-3.30\Templates\MSBuild\nasm.targets" />
+  </ImportGroup>
+</Project>

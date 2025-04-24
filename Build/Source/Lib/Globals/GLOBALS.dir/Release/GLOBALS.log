@@ -1,0 +1,4 @@
+﻿  enc_handle.c
+  enc_settings.c
+E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Source\Lib\Globals\enc_settings.c(1859,8): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  GLOBALS.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\Globals\GLOBALS.dir\Release\GLOBALS.lib

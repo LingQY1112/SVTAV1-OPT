@@ -1,0 +1,10 @@
+^E:\SVT-AV1\AV1-OPTIMIZATION-2.2.1-VMAF\BUILD\CMAKEFILES\BE2FC8BE819C712578B259E7F71CCF3D\GENERATE.STAMP.RULE
+setlocal
+E:\CMAKE3.30\bin\cmake.exe -SE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf -BE:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/SVT-AV1/AV1-Optimization-2.2.1-vmaf/Build/svt-av1.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

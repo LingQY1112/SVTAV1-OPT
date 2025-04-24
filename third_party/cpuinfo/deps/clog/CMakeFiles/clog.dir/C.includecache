@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u/svt-av1-vmaf/third_party/cpuinfo/deps/clog/src/clog.c
+stdarg.h
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+windows.h
+-
+unistd.h
+-
+android/log.h
+-
+clog.h
+-
+
+third_party/cpuinfo/deps/clog/include/clog.h
+stdarg.h
+-
+stdlib.h
+-
+inttypes.h
+-
+

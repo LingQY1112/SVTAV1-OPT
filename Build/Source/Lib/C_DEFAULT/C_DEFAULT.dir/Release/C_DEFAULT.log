@@ -1,0 +1,12 @@
+﻿  blend_a64_mask_c.c
+  cfl_c.c
+  compute_sad_c.c
+  encode_txb_ref_c.c
+  filterintra_c.c
+  inter_prediction_c.c
+  intra_prediction_c.c
+  pack_unpack_c.c
+  picture_operators_c.c
+  sad_av1.c
+  variance.c
+  C_DEFAULT.vcxproj -> E:\SVT-AV1\AV1-Optimization-2.2.1-vmaf\Build\Source\Lib\C_DEFAULT\C_DEFAULT.dir\Release\C_DEFAULT.lib
