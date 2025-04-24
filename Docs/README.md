@@ -1,41 +1,30 @@
-[Top level](../README.md)
+The canonical URL for SVT-AV1 is at <https://gitlab.com/AOMediaCodec/SVT-AV1>
 
-# Documentation
+## Build Support 
+- __Build Requirements__
+  - GCC 5.4.0 or later
+  - CMake 3.16 or later
+  - NASM Assembler version 2.14 or later
+  - Build VMAF support: <https://github.com/Netflix/vmaf>
 
-## Guides
-- [System Requirements](System-Requirements.md)
-- [How to run SVT-AV1 within ffmpeg](Ffmpeg.md)
-- [Standalone Encoder Usage](svt-av1_encoder_user_guide.md)
-- [List of All Parameters](Parameters.md)
-- [Build Guide](Build-Guide.md)
-- [SVT-AV1 Contribution Guide](Contribute.md)
-- [Common Questions/Issues](CommonQuestions.md)
+- __Build and install SVT-AV1__
+``` bash
+cd SVTAV1-OPT
+cd Build
+cmake ..
+make -j $(nproc)
+```
 
-## Design Documents
-- [Encoder Design](svt-av1-encoder-design.md)
+## Encode Command
+1.改进的基于VMAF的RDO：specify tune=3 --vmaf-model-path 为安装VMAF库的具体路径
+``` bash
+./SvtAv1EncApp -i {Seq_origin.yuv} -w {width} -h {height} --tune 3 --preset 3 --fps {fps} --rc 0 --qp {crf} --enable-qm 1 --keyint 256 --hierarchical-levels 5 --enable-stat-report 1 --stat-file {encode.log} --output {compress.ivf} --recon {Seq_reconstructed.yuv} --vmaf-model-path {/vmaf-2.3.1/model/vmaf_v0.6.1.json}
+```
+2.前处理：用SSIM和PSNR限制锐化强度：specify tune=4  --vmaf-model-path 为安装VMAF库的具体路径
+``` bash
+./SvtAv1EncApp -i {Seq_origin.yuv} -w {width} -h {height} --tune 4 --preset 3 --fps {fps} --rc 0 --qp {crf} --enable-qm 1 --keyint 256 --hierarchical-levels 5 --enable-stat-report 1 --stat-file {encode.log} --output {compress.ivf} --recon {Seq_reconstructed.yuv} --vmaf-model-path {/vmaf-2.3.1/model/vmaf_v0.6.1.json}
+```
+### Acknowledgement
+This repository is based on <https://aomedia.googlesource.com/aom/+/3cd9eec>.
+The reference paper is VMAF Based Rate-Distortion Optimization for Video Coding
 
-## Technical Appendices
-- [Altref and Overlay Pictures Appendix](Appendix-Alt-Refs.md)
-- [CDEF Appendix](Appendix-CDEF.md)
-- [CfL Appendix](Appendix-CfL.md)
-- [Compliant Subpel Interpolation Filter Search Appendix](Appendix-Compliant-Subpel-Interpolation-Filter-Search.md)
-- [Compound Mode Prediction Appendix](Appendix-Compound-Mode-Prediction.md)
-- [Deblocking Loop Filter (LF) Appendix](Appendix-DLF.md)
-- [Film Grain Synthesis](Appendix-Film-Grain-Synthesis.md)
-- [Global Motion Appendix](Appendix-Global-Motion.md)
-- [Intra Block Copy Appendix](Appendix-Intra-Block-Copy.md)
-- [IPP Pass Appendix](Appendix-IPP-Pass.md)
-- [Local Warped Motion appendix](Appendix-Local-Warped-Motion.md)
-- [Mode Decision Appendix](Appendix-Mode-Decision.md)
-- [Motion Estimation Appendix](Appendix-Open-Loop-Motion-Estimation.md)
-- [Overlapped Block Motion Compensation Appendix](Appendix-Overlapped-Block-Motion-Compensation.md)
-- [Palette Prediction Appendix](Appendix-Palette-Prediction.md)
-- [Rate Control Appendix](Appendix-Rate-Control.md)
-- [Recursive Intra Appendix](Appendix-Recursive-Intra.md)
-- [Restoration Filter Appendix](Appendix-Restoration-Filter.md)
-- [SQ Weight Appendix](Appendix-SQ-Weight.md)
-- [Super-resolution Appendix](Appendix-Super-Resolution.md)
-- [Temporal Dependency Model](Appendix-TPL.md)
-- [Transform Search Appendix](Appendix-TX-Search.md)
-- [Reference Scaling Appendix](Appendix-Reference-Scaling.md)
-- [Variance Boost Appendix](Appendix-Variance-Boost.md)
