@@ -16,11 +16,12 @@ make -j $(nproc)
 ```
 
 ## Encode Command
+基于VMAF的SVT-AV1感知优化
 1.改进的基于VMAF的RDO：tune=3 --vmaf-model-path 为安装VMAF库的具体路径
 ``` bash
 ./SvtAv1EncApp -i {Seq_origin.yuv} -w {width} -h {height} --tune 3 --preset 3 --fps {fps} --rc 0 --qp {crf} --enable-qm 1 --keyint 256 --hierarchical-levels 5 --enable-stat-report 1 --stat-file {encode.log} --output {compress.ivf} --recon {Seq_reconstructed.yuv} --vmaf-model-path {/vmaf-2.3.1/model/vmaf_v0.6.1.json}
 ```
-2.前处理：用SSIM和PSNR限制锐化强度：tune=4  --vmaf-model-path 为安装VMAF库的具体路径
+2.锐化前处理的改进：用SSIM和PSNR限制锐化强度：tune=4  --vmaf-model-path 为安装VMAF库的具体路径
 ``` bash
 ./SvtAv1EncApp -i {Seq_origin.yuv} -w {width} -h {height} --tune 4 --preset 3 --fps {fps} --rc 0 --qp {crf} --enable-qm 1 --keyint 256 --hierarchical-levels 5 --enable-stat-report 1 --stat-file {encode.log} --output {compress.ivf} --recon {Seq_reconstructed.yuv} --vmaf-model-path {/vmaf-2.3.1/model/vmaf_v0.6.1.json}
 ```
